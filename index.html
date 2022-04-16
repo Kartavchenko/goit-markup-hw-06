@@ -57,27 +57,32 @@
                 <div class="backdrop is-hidden" data-modal>
                     <div class="modal">
                         <form class="form">
+                            <button class="btn-modal-close" data-modal-close>
+                                <svg class="icon-modal-close">
+                                    <use href="./images/icons-form.svg#close-black-form"></use>
+                                </svg>
+                            </button>
                             <b class="form-title">Оставьте свои данные, мы вам перезвоним</b>
                             <div class="form-field">
                                 <label class="form-label" for="name">Имя</label>
                                 <span class="form-icon"><svg class="form-icon-item">
                                     <use href="./images/icons-form.svg#person-black-form"></use>
                                 </svg></span>
-                                    <input class="form-input" type="text" name="text" id="name">
+                                <input class="form-input" type="text" name="text" id="name">
                             </div>
                             <div class="form-field">
                                 <label class="form-label" for="tel">Телефон</label>
                                 <span class="form-icon"><svg class="form-icon-item">
                                     <use href="./images/icons-form.svg#phone-black-form"></use>
                                 </svg></span>
-                                    <input class="form-input" type="tel" name="tel" id="tel">
+                                <input class="form-input" type="tel" name="tel" id="tel">
                             </div>
                             <div class="form-field">
                                 <label class="form-label" for="email">Почта</label>
                                 <span class="form-icon"><svg class="form-icon-item">
                                     <use href="./images/icons-form.svg#email-black-form"></use>
                                 </svg></span>
-                                    <input class="form-input" type="email" name="email" id="email">
+                                <input class="form-input" type="email" name="email" id="email">
                             </div>
                             <div class="form-field">
                                 <label class="form-label" for="feedback">Комментарий</label>
@@ -85,22 +90,17 @@
                             </div>
                             <div class="checkbox">
                                 <label class="checkbox-label">
-                                    <span class="checkbox-icon">
-                                        <svg class="checkbox-icon-item">
-                                            <use href="./images/icons-form.svg#icon-check-form"></use>
-                                        </svg>
-                                    </span>
                                 <input class="checkbox-input" type="checkbox" name="chekbox">
-                                Соглашаюсь с рассылкой и принимаю <a class="condition" href="">Условия договора</a>
+                                <span class="checkbox-icon">
+                                    <!-- <svg class="checkbox-icon-item">
+                                        <use href="./images/icons-form.svg#icon-check-form"></use>
+                                    </svg> -->
+                                </span>
+                                    Соглашаюсь с рассылкой и принимаю <a class="condition" href="">Условия договора</a>
                                 </label>
                             </div>
                             <button class="form-btn-send" type="submit">Отправить</button>
                         </form>
-                        <button class="btn-modal-close" data-modal-close>
-                            <svg class="icon-modal-close">
-                                <use href="./images/icons-form.svg#close-black-form"></use>
-                            </svg>
-                        </button>
                     </div>
                 </div>
             </div>
