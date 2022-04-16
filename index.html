@@ -84,12 +84,14 @@
                                     <textarea class="form-input" placeholder="Введите текст" rows="5" name="feedback" id="feedback"></textarea>
                             </div>
                             <div class="checkbox">
-                                <!-- <span class="icon-check"><svg class="icon-item">
-                                    <use href="./images/icons-form.svg#icon-check-form"></use>
-                                </svg></span> -->
-                                <label for="checkbox">
-                                    <input type="checkbox" name="chekbox" required>
-                                    Соглашаюсь с рассылкой и принимаю <a class="condition" href="">Условия договора</a>
+                                <label class="checkbox-label">
+                                    <span class="checkbox-icon">
+                                        <svg class="checkbox-icon-item">
+                                            <use href="./images/icons-form.svg#icon-check-form"></use>
+                                        </svg>
+                                    </span>
+                                <input class="checkbox-input" type="checkbox" name="chekbox">
+                                Соглашаюсь с рассылкой и принимаю <a class="condition" href="">Условия договора</a>
                                 </label>
                             </div>
                             <button class="form-btn-send" type="submit">Отправить</button>
@@ -433,6 +435,20 @@
             </li>
         </ul>
         </div>
+        <form class="form-footer">
+            <b class="form-title-footer">
+                Подпишитесь на рассылку
+            </b>
+            <div class="form-footer-box">
+                <input class="form-footer-input" type="email" name="email" placeholder="E-mail">
+                <span class="form-footer-icon">
+                    <svg class="form-footer-item">
+                        <use href="./images/icons-form.svg#icon-send"></use>
+                    </svg>
+                </span>
+            <button class="btn-footer-submit" type="submit">Подписаться</button>
+            </div>
+        </form>
         </div>
     </footer>
     <script src="./js/modal.js"></script>
