@@ -362,6 +362,10 @@ a {
   background-origin: border-box;
 }
 
+.checkbox-input:focus + .checkbox-icon {
+  border-color: #2196f3;
+}
+
 .condition {
   color: #2196f3;
   text-decoration: underline;
